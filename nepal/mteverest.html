@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="animated fadeInUpBig">
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="css\mteverest.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,700" rel="stylesheet">
+   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <title>Mt Everest</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg">
+        <img id="bg" src="images\places\background.png" alt="">
+      </div>
+        <div  data-relative-input="true" id="scene">
+      <div class="mteverest"  data-depth="0.07">
+        <img id="mteverest" src="images\places\mountain.png" alt="">
+      </div>
+      <div class="walking" data-depth="0.07">
+        <img id="walking"src="images\mteverest\walking.jpg" alt="">
+      </div>
+      <div class="solu" data-depth="0.07">
+        <img id="solu"src="images\mteverest\solu.jpg" alt=""></div>
+
+        <div class="namche" data-depth="0.07">
+          <img id="namche"src="images\mteverest\namche.jpg" alt=""></div>
+
+          <div class="basecamp" data-depth="0.07">
+            <img id="basecamp"src="images\mteverest\basecamp.jpg" alt=""></div>
+    </div>
+      <div class="mtheading">
+        <h2 id="mtheading">Mt <br> Everest</h2>
+      </div>
+<a href="homepage.html">
+      <div class="logo">
+        <img id="logo"src="images\loading page\logo.png" alt="">
+          <h3 id="homepage">HOME</h3>
+      </div></a>
+      <p id="firstparagraph">Reach the highest point on earth or choose to live out your dream by
+        standing at the foot of Mt. Everest <span id="text">(8,848 m)</span>. <br class="gap">
+
+The Everest region in <span id="text">Nepal</span> is more than just trekking,
+ it is a milestone in anyone’s life; and some have even described
+  the experience as a journey close to Nirvana. Located in the northeast province of Nepal, this is
+  a colony to<span id="text">dramatic glaciers</span>, deep settlements, several majestic mountains. </p>
+
+<div  data-relative-input="true" id="scene" >
+<!-- IDEA: <div class="walking" data-depth="0.05">
+  <img id="walking"src="images\mteverest\walking.jpg" alt="">
+</div> --> </div>
+
+  <h2 id="sherpa">Sherpa Village</h2>
+  <p id="secondparagraph"> Passing through <span id="text">legendary Sherpa villages</span>, the trek is a mix of a deeply cultural and spiritual experience in addition to the physical one. <span id="text">Buddhist lamas, monks and nuns </span> led by Rinpoches (reincarnate lamas) serve the predominantly Sherpa com­munities from gompas (monasteries).<br>
+
+The journey to Everest or Everest Base Camp, begins from <span id="text">Lukla</span>, if you are taking a direct flight from the capital. However, for die-hard lovers of trekking, there is an another switchback starting from <span id="text"> Jiri</span>through the mid-hills of Solu; ethnically diverse and flora-rich . </p>
+<!-- IDEA: <div class="solu">
+  <img id="solu"src="images\mteverest\solu.jpg" alt=""></div> -->
+  <h2 id="solokhumbu">Solu Khumbu</h2>
+  <p id="thirdparagraph">Taking a flight is a time-saver, while trekking from Jiri gives you the opportunity to take in each tiny detail of the trek, with extra time to to meet the charming people and see the <span id="text"> rich flora and fauna on the trail</span>. <br>
+
+The option from Jiri will roughly take 10 days to reach the famous Sherpa village,<span id="text"> Namche Bazaar (3,500m)</span>. The Sagarmatha National Park in the Khumbu is one of the few places on earth with the rarest bio-diversity and the highest and youngest mountain system in the world.  </p>
+
+<!-- IDEA: <div class="namche">
+  <img id="namche"src="images\mteverest\namche.jpg" alt=""></div> -->
+  <h2 id="namchebazaar">Namche Bazaar</h2>
+  <p id="forthparagraph">For those with sufficient time, a 10-12 day trek through Solu to the Khumbu and the <span id="text">Sagarmatha National Park </span>is an excellent itinerary both in terms of acclimatization and to experience the changing customs, traditions, and lifestyles as you pass through lower altitude settlements to those in the higher altitudes.<br>
+
+A part of the <span id="text"> Himalayan ecological zone</span>, the park was added to the list of UNESCO Natural World Heritage Sites in 1979.  The park contains <span id="text"> three of the world's seven highest mountains</span> Sagarmatha or Mt. Everest, Lhotse, and Cho Oyu and is also home to several other prominent peaks most of which are above 6,000 meters. </p>
+
+<!-- IDEA: <div class="basecamp">
+  <img id="basecamp"src="images\mteverest\basecamp.jpg" alt=""></div> -->
+  <h2 id="basecampheading">Base Camp</h2>
+  <p id="fifthparagraph">Climbers and trekkers continue to trek to Everest Base Camp and not surprisingly the <span id="text">"Roof of the World"</span> continues to be the scene of some of mountaineering's most significant accomplishments and a favored haven for <span id="text">alpine enthusiasts</span>. <br>
+
+The Everest region  has been valued as the key to evolutionary history of the Earth, and is also a habitat for some rare and endangered species like <span id="text">snow leopard, red panda, Himalayan black bear, musk deer and Himalayan wolves.</span> </p>
+
+
+<div class="box">
+
+</div>
+
+    </div>
+    <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene, {
+      relativeInput: true
+    });
+    </script>
+    <script type="text/javascript"src="js\mteverest.js">
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Loading screen</title>
+    <link rel="stylesheet" href="css\style.css">
+<link type="text/css"rel="styleseet" href="css\style.css">
+<link type="text/css"rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</script>
+    </head>
+    <body>
+      <div class="pageone">
+    <div class="container">
+    <div  data-relative-input="true" id="scene">
+      <div id="clouds" data-depth="0.7">
+        <img src="images\loading page\clouds.png" alt="image" width="1920px" height="1080p">
+      </div>
+
+      <div class="logo">
+        <div class="logo">
+          <img id="logo"src="images\loading page\logo.png" alt="logo">
+        </div>
+        <a href="homepage.html">
+        <div  class="explorenepal">
+          <p id="explore">EXPLORE <br class="nepal"> NEPAL</p>
+  </div></a></div>
+
+      <div id="choprak" data-depth="0.3">
+        <img src="images\loading page\choprak mountain.jpg" alt="image" width="1920px">
+      </div>
+    </div>
+      <a href="homepage.html">
+      <div  class="explorenepal">
+        <p id="explorehover">EXPLORE <br> NEPAL</p>
+</div></a>
+</div>
+</div><!--pageone end -->
+<script>
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene, {
+  relativeInput: true
+});
+</script>
+
+    </body>
+</html>
+
+
+<!-- IDEA:     <div class="logo">
+      <div class="logo">
+        <img id="logo"src="images\loading page\logo.png" alt="logo">
+      </div>
+      <a href="homepage.html">
+      <div  class="explorenepal">
+        <p id="explore">EXPLORE <br class="nepal"> NEPAL</p>
+</div></a></div> -->

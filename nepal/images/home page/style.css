@@ -1,0 +1,100 @@
+body{
+  position: absolute;
+  width:100%;
+  height: auto;
+  overflow: hidden;
+}
+@font-face {
+  font-family: peacesans;
+  src: url(../text/peace_sans.otf);
+
+}
+#choprak{
+  z-index: -10;
+}
+
+#scene{
+position:absolute;
+transform: scale(1.5,1.5);
+margin: -50px -100px;
+}
+#clouds{
+  position: absolute;
+  opacity: 0.6;
+  -webkit-filter: blur(1.5px);
+  /* background-repeat: repeat-y; */
+  z-index: 7;
+  margin: -18px;
+}
+#logo{
+  position: absolute;
+      margin-left: 800px;
+      left: -99px;
+      margin-top: 389px;
+      top: -132px;
+      z-index: -5;
+}
+
+.explorenepal{
+  position: absolute;
+  font-family: peacesans;
+  font-size: 5em;
+  margin-left: 800px;
+  left: -110px;
+  margin-top: 424px;
+  line-height: 63px;
+  color: rgb(12, 54, 62);
+  text-align: center;
+}
+#explorehover{
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 30px;
+  opacity: 0.2;
+  letter-spacing: 0px;
+}
+
+
+#explorehover:hover{
+  opacity: 0.8;
+  color:rgb(251, 187, 19);
+  transition: 1.5s;
+}
+
+
+
+
+/* IDEA: animations */
+
+
+
+
+@-webkit-keyframes blur{
+  0% { -webkit-filter: blur(40px);
+        opacity: 0;}
+  50% { -webkit-filter: blur(40px);
+          opacity: 0.4;}
+  100% { -webkit-filter: blur(0px);
+      opacity: 1;}
+}
+
+#choprak{
+  -webkit-animation: blur 5s;
+}
+
+@-webkit-keyframes logomove{
+    0%{ -webkit-transform: translate(900px,0px);}
+    50%{-webkit-transform: translate(0px, 0px);}
+    100%{-webkit-transform: translate(0px, 0px);}
+  }
+  #logo{
+    -webkit-animation: logomove 6s;
+  }
+  @-webkit-keyframes wordmove{
+      0%{ -webkit-transform: translate(-900px,0px);}
+      50%{-webkit-transform: translate(0px, 0px);}
+      100%{-webkit-transform: translate(0px, 0px);}
+    }
+    .explorenepal{
+        -webkit-animation: wordmove 6s;
+    }

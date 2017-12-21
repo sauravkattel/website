@@ -1,0 +1,204 @@
+body{
+display: inline-block;
+float: left;
+overflow-y: hidden;
+font-family: 'Barlow Condensed', sans-serif;
+}
+@font-face {
+  font-family: peacesans;
+  src: url(../text/peace_sans.otf);
+
+}
+.container{
+  position: absolute;
+      margin-top: 50%;
+      top: -881px;
+      left: -20px;
+}
+.logo:hover{
+  filter: grayscale(1);
+}
+#bg{
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  z-index: -10;
+}
+#mtheading{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 643px;
+  margin-top: 104px;
+  line-height: 126px;
+  text-align: center;
+}
+#mtparagraph{
+  position: absolute;
+  width: 339px;
+  font-size: 2em;
+  margin-left: 904px;
+  color: white;
+  margin-top: 223px;
+}
+#mteverest{
+  width: 1000px;
+  margin: -502px;
+  top: 386px;
+  margin-left: 183px;
+  position: relative;
+}
+#logo{
+  position: absolute;
+  margin-left: 34%;
+  width: 188px;
+  opacity: 1;
+  margin-top: 13%;
+  z-index: -1;
+}
+#homepage{
+  position: absolute;
+  font-family: peacesans;
+  font-size: 4em;
+  color: rgb(12, 54, 62);
+  margin-left: 31%;
+  margin-top: 28%;
+  letter-spacing: 2px;
+  transform: rotate(-4deg);
+  opacity: 0.9;
+}
+#logo:hover{
+  opacity: 0.6;
+  transition: 0.6s;
+}
+#firstparagraph{
+  position: absolute;
+  width: 694px;
+  font-size: 2em;
+  margin-left: 1195px;
+  color: white;
+  margin-top: 433px;
+  height: 509px;
+}
+#walking{
+  width: 1000px;
+  margin-top: 50%;
+  top: 328px;
+  margin-left: 1955px;
+  position: absolute;
+}
+#sherpa{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 2513px;
+  margin-top: 108px;
+  line-height: 126px;
+  text-align: right;
+}
+#secondparagraph{
+  position: absolute;
+  width: 800px;
+  font-size: 2em;
+  margin-left: 3050px;
+  color: white;
+  margin-top: 433px;
+  height: 509px;
+}
+#solu{
+  width: 1000px;
+  margin-top: 50%;
+  top: 328px;
+  margin-left: 3939px;
+  position: absolute;
+}
+#solokhumbu{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 4490px;
+  margin-top: 108px;
+  line-height: 126px;
+  text-align: center;
+}
+#thirdparagraph{
+  position: absolute;
+  width: 741px;
+  font-size: 2em;
+  margin-left: 5017px;
+  color: white;
+  margin-top: 433px;
+  height: 509px;
+}
+#namche{
+  width: 1000px;
+  margin-top: 50%;
+  top: 328px;
+  margin-left: 5845px;
+  position: absolute;
+}
+#namchebazaar{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 6400px;
+  margin-top: 108px;
+  line-height: 126px;
+  text-align: center;
+}
+#forthparagraph{
+  position: absolute;
+  width: 908px;
+  font-size: 2em;
+  margin-left: 6952px;
+  color: white;
+  margin-top: 433px;
+  height: 509px;
+}
+#basecamp{
+  width: 1000px;
+      margin-top: 50%;
+      top: 328px;
+      margin-left: 7927px;
+      position: absolute;
+}
+#basecampheading{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 8600px;
+  margin-top: 108px;
+  line-height: 126px;
+  text-align: center;
+}
+#fifthparagraph{
+  position: absolute;
+  width: 686px;
+  font-size: 2em;
+  margin-left: 8980px;
+  color: white;
+  margin-top: 445px;
+  height: 509px;
+}
+.box{
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  background-color: white;
+  /* border: 20px; */
+  /* border-color: red; */
+  z-index: 5;
+  margin-left: 9556px;
+  opacity: 0;
+}
+#text{
+    color: rgba(250, 119, 119, 0.75);
+}
+#slideleft{
+  transform: translateX(-200px);
+}

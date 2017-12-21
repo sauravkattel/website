@@ -1,0 +1,238 @@
+body{
+width: 1600px;
+height:auto;
+font-family: 'Barlow Condensed', sans-serif;
+}
+a{
+  color: black;
+}
+.container{
+  position: absolute;
+  margin-left: 50%;
+  left: -400px;
+}
+.overlay{
+  position: absolute;
+  width: 1368px;
+  height: 634px;
+  background-color: rgb(245, 129, 141);
+  margin-top: 1300px;
+  z-index: 11;
+  margin-left: 109px;
+  opacity: 0.2;
+  filter: blur(10px);
+  opacity: 0
+
+}
+#placeshtml:hover{
+  color: rgba(173, 67, 67, 0.77);
+  transition: 1.5s ease-in;
+}
+
+#logo{
+  position: absolute;
+  z-index: 11;
+  margin-left: -216px;
+  margin-top: 29px;
+  width: 255px;
+  opacity: 0.9;
+}
+#logo:hover{
+filter: grayscale(1);
+}
+
+#namaste{
+margin-left:800px;
+left:-683px;
+position: absolute;
+z-index: 10;
+opacity: 0;
+}
+#namastegif{
+  margin-left:800px;
+  left:-683px;
+  position: absolute;
+  z-index: 10;
+
+}
+
+
+#aboutnepaltext{
+  font-size: 68pt;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      margin-left: 800px;
+      left: -500px;
+      width: 500px;
+      margin-top: 800px;
+      font-weight: 500;
+
+}
+.line{
+  width: 583px;
+      height: 5px;
+      background-color: rgb(0, 0, 0);
+      margin-left: 800px;
+      left: -685px;
+      margin-top: 894px;
+      position: absolute;
+
+}
+#temple{
+  margin-left: 875px;
+  margin-top: 498px;
+  position: absolute;
+
+}
+
+#aboutnepalparag{
+  font-size: 25pt;
+  margin-left: 800px;
+  left: -500px;
+  margin-top: 916px;
+  font-weight: 300;
+  position: absolute;
+  width: 700px;
+  height: auto;
+}
+
+#attractiontext{
+  font-size: 106pt;
+      position: absolute;
+      margin-left: 800px;
+      left: -324px;
+      font-weight: 200px;
+      margin-top: 1335px;
+      opacity: 0.7;
+      z-index: 4;
+}
+#pashupatiwhitelayer{
+  position: absolute;
+      margin-top: 1010px;
+      margin-left: 800px;
+      left: -683px;
+      z-index: 5;
+}
+#pashupati{
+  position: absolute;
+      margin-top: 1252px;
+      margin-left: 800px;
+      left: -683px;
+
+}
+#pashupatitop{
+  position: absolute;
+  margin-top: 1351px;
+  margin-left: 814px;
+  left: -200px;
+  z-index: 4;
+}
+
+#pashupatitext{
+  position: absolute;
+  margin-top: 1551px;
+  margin-left:800px;
+  left:-653px;
+  z-index: 5;
+  font-size: 68pt;
+ font-weight: 500;
+}
+.line2{
+  width: 369px;
+      height: 5px;
+      background-color: rgb(0, 0, 0);
+      margin-left: 800px;
+      left: -683px;
+      margin-top: 1642px;
+      position: absolute;
+      z-index: 5;
+
+}
+#paintbackground{
+  position: absolute;
+  margin-left: 800px;
+  left: -683px;
+  margin-top: 1522px;
+  position: absolute;
+  width: 637px;
+  opacity: 0.8;
+}
+#pashupatiparagraph{
+  margin-left: 800px;
+  left: -648px;
+  margin-top: 1659px;
+  position: absolute;
+  z-index: 5;
+  width: 478px;
+  font-size: 20pt;
+  font-weight: 300;
+}
+
+#culuturebackground{
+  position: absolute;
+  margin-left: 800px;
+  left: -683px;
+  margin-top: 1556px;
+  height: 1488px;
+  width: 1366px
+}
+
+#cultureheading{
+  font-size: 140pt;
+      position: absolute;
+      margin-left: 800px;
+      left: -327px;
+      font-weight: 200px;
+      margin-top: 2094px;
+      opacity: 0.5;
+      z-index: 4;
+      letter-spacing: 13px;
+}
+#cultureparagraph{
+  margin-left: 800px;
+  left: -446px;
+  margin-top: 2313px;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  width: 896px;
+  font-size: 25pt;
+  font-weight: 300;
+  line-height: 41px;
+}
+
+#footervisit{
+  margin-left: 800px;
+  left: -959px;
+  margin-top: 2868px;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  width: 922px;
+  font-size: 42pt;
+}
+
+
+
+/* IDEA: animation */
+
+@-webkit-keyframes fadein{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+#namaste{
+  position: absolute;
+  -webkit-animation:fadein 0.5s ease-in 2s ;
+  animation-fill-mode: forwards;
+}
+
+#namastegif{
+  position: absolute;
+  -webkit-animation:fadein 0.5s ease-in 3s reverse;
+  animation-fill-mode: forwards;
+}

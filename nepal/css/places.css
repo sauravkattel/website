@@ -1,0 +1,278 @@
+body{
+display: inline-block;
+float: left;
+overflow-y: hidden;
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+@font-face {
+  font-family: peacesans;
+  src: url(../text/peace_sans.otf);
+
+}
+.container{
+  position: absolute;
+  margin-top: 50%;
+  top: -812px;
+  left: -20px;
+}
+
+
+#bg{
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  z-index: -10;
+}
+.logo:hover{
+  filter: grayscale(1);
+}
+#logo{
+      position: absolute;
+      margin-left: 147px;
+      width: 255px;
+      opacity: 0.9;
+      /* IDEA:    margin-top: 53px;*/
+      margin-top: 1.5%;
+}
+#homepage{
+  position: absolute;
+  font-family: peacesans;
+  font-size: 4em;
+  color: rgb(12, 54, 62);
+  margin-left: 161px;
+  margin-top: 4.3%;
+  letter-spacing: 2px;
+  opacity: 0.9
+}
+
+#quotes{
+  position: absolute;
+  margin-top: 485px;
+  top: -140px;
+  font-size: 6em;
+  width: 700px;
+  color: white;
+  line-height: 80px;
+  margin-left: 50px;
+}
+#once{
+  font-size: 1.3em;
+  color: rgba(252, 91, 91, 0.53);
+}
+
+#mountain{
+position: absolute;
+margin-left: 800px;
+margin-top: 329px;
+}
+.mountain:hover{
+  -webkit-filter: grayscale(1);
+  transition: all 0.5s;
+
+}
+#everestheading{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 698px;
+  margin-top: 203px;
+}
+#everestinfo{
+  position: absolute;
+  width: 339px;
+  font-size: 2em;
+  color: white;
+  margin-left: 1290px;
+  margin-top: 223px;
+}
+#everestinfoblack{
+  position: absolute;
+  width: 339px;
+  font-size: 2em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 1291px;
+  margin-top: 223px;
+  z-index: -1;
+}
+
+
+#lake{
+  position: absolute;
+  margin-left: 1664px;
+  margin-top: 146px;
+}
+
+#pokhara{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 1617px;
+  margin-top: 498px;
+}
+#pokharainfo{
+  position: absolute;
+  width: 362px;
+  font-size: 2em;
+  color: white;
+  margin-left: 2097px;
+  margin-top: 560px;
+}
+#pokharainfoblack{
+  position: absolute;
+  width: 362px;
+  font-size: 2em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 2098px;
+  margin-top: 560px;
+  z-index: -1;
+}
+#temple{
+  position: absolute;
+  margin-left: 2528px;
+  margin-top: 329px;
+}
+
+#kathmandu{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 2476px;
+  margin-top: 196px;
+}
+#kathmanduinfo{
+  position: absolute;
+  width: 311px;
+  font-size: 2em;
+  color: white;
+  margin-left: 3041px;
+  margin-top: 242px;
+}
+#kathmanduinfoblack{
+  position: absolute;
+  width: 311px;
+  font-size: 2em;
+  color:rgba(250, 119, 119, 0.75);
+  margin-left: 3042px;
+  margin-top: 242px;
+  z-index: -1
+}
+
+#elephant{
+  position: absolute;
+  margin-left: 3392px;
+  margin-top: 146px;
+  top: 0;
+}
+
+#jungle{
+  position: absolute;
+  font-weight: 400;
+  font-size: 10em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 3362px;
+  margin-top: 539px;
+  line-height: 120px;
+  width: 700px;
+}
+
+#jungleinfo{
+  position: absolute;
+  width: 382px;
+  font-size: 2em;
+  color: white;
+  margin-left: 3820px;
+  margin-top: 513px;
+}
+#jungleinfoblack{
+  position: absolute;
+  width: 382px;
+  font-size: 2em;
+  color: rgba(250, 119, 119, 0.75);
+  margin-left: 3821px;
+  margin-top: 513px;
+  z-index: -1
+}
+#paragliding{
+  width: 814px;
+  height: 480px;
+  position: absolute;
+  margin-left: 4256px;
+  margin-top: 329px;
+  top: 0;
+}
+#paraglidingheading{
+  position: absolute;
+      font-weight: 400;
+      font-size: 10em;
+      color: rgba(250, 119, 119, 0.75);
+      margin-left: 4220px;
+      margin-top: 168px;
+      line-height: 120px;
+}
+#paraglidinginfo{
+  position: absolute;
+  width: 423px;
+  font-size: 2em;
+  color: white;
+  margin-left: 4696px;
+  margin-top: 256px;
+}
+#paraglidinginfoblack{
+  position: absolute;
+  width: 423px;
+  font-size: 2em;
+  color:rgba(250, 119, 119, 0.75);
+  margin-left: 4697px;
+  margin-top: 256px;
+  z-index: -1;
+}
+
+#more{
+  position: absolute;
+  width: 200px;
+  height: 970px;
+  margin-left: 5120px;
+  margin-right: 0px;
+}
+
+#explore{
+  position: relative;
+      font-weight: 900;
+      font-size: 9em;
+      color: white;
+      transform: rotate(90deg);
+      transform-origin: left top 0;
+      opacity:0.5;
+      margin-left: 198px;
+      margin-top: 111px;
+}
+
+
+#button{
+  background-color: rgb(255, 134, 134);
+  width: 200px;
+  height: 1080px;
+  margin-left: 5120px;
+  margin-right: 0px;
+  outline: none;
+}
+
+
+@-webkit-keyframes slidedown {
+  0% {
+   margin-top:;
+   opacity:;
+ }
+ 100% {
+   margin-top: 111px;
+   opacity: 0.5;
+ }
+}
+#more:hover{
+  -webkit-animation:slidedown 3s;
+  animation-fill-mode: forwards;
+}

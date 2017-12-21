@@ -1,0 +1,46 @@
+body{
+  width: 1600px;
+  height:auto;
+  font-family:'Barlow Condensed', sans-serif;
+  }
+  #pashupati{
+      position: absolute;
+      margin-left:800px;
+      left:-683px;
+    }
+#pashupatitop{
+  position: absolute;
+  margin-left: 794px;
+  left: -186px;
+  margin-top: 45px;
+  z-index: 10;
+}
+#attractiontext{
+  font-size: 106pt;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-left: 804px;
+  left: -411px;
+  margin-top: 28px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  opacity: 0.5;
+}
+#dolpapicture{
+  position: absolute;
+  margin-left: 800px;
+  left: -683px;
+  margin-top: 566px;
+}
+#trekkingpicture{
+  position: absolute;
+  margin-left: 800px;
+  left: -683px;
+  margin-top: 845px;
+}
+#gokyopicture{
+  position: absolute;
+  margin-left: 800px;
+  left: -683px;
+  margin-top: 1373px;
+}
